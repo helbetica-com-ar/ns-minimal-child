@@ -1,0 +1,61 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 85px;
+    padding-top: 160px;
+}
+
+body.logged-in.admin-bar .navbar {
+    margin-top: 32px!important;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #666666;
+  font-family: 'Nunito Sans', 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  text-rendering: optimizeLegibility;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+
+
+/* HEADER */
+.navbar-brand {
+    cursor: default;
+}
+
+/* NAVBAR */
+.nav-fill .nav-item .nav-link {
+    width: 100%;
+}
+.nav-tabs .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    border-color: transparent;
+    font-weight: 700;
+}
+.nav-tabs .nav-link:hover {
+    background-color: #fff;
+    border-color: transparent;
+}
+
+
+/* FOOTER */
+.copyleft {
+    display: inline-block;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
